@@ -1,0 +1,34 @@
+JDK-java developement kit
+jdk is a software which provide component to compile and execute the program.
+
+whithin JDK JRE AND JVM is present
+       JDK=JRE+JVM
+
+JRE- java runtime envirnment
+JRE is a software which provide component to execute the program
+ JRE=JVM+Liabrary & interpreter
+
+JVM-java virtual machine
+jvm is not physically present but work like physical method.
+ 
+within jvm interpreter is present
+INTERPRETER- with the help of interpreter we can execute the code.
+it convert middle level language to low level language
+(jre to binary)
+
+JIT- just in time compiler(present in jvm)
+
+COMPILER- present in jdk
+it convert high level language to middle level language(byte code)
+
+compilation- the process of converting java code to byte code.
+ converting high level language to middle level language is known as compilation.
+
+Execution- the process of converting middle level language to low level language is knows as execution 
+(byte code to binary code)
+with the help interpreter we can execute
+
+
+
+
+
