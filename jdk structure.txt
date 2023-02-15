@@ -28,6 +28,7 @@ Execution- the process of converting middle level language to low level language
 (byte code to binary code)
 with the help interpreter we can execute
 
+JRE is requaired to execute the program
 
 
 
