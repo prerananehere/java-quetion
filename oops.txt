@@ -44,5 +44,57 @@ class A      class B
     (parent)
 5. HYBRIDE INTERFACE 
  it is a combination of two inheritance
+class B         class C
+       \         /
+         class A
+         /     \
+  class D     class E
+------------------------------------------------------------------------------------------------------
+ABSTACTION
+hiding implimentation & showing only functionality
+EXAMPLE-
+  in atm machine bank people show only functionality and hiding implimentation we can see withrow recipt etc option 
+  on screen but we cant see what is interanal working behind them
+----------------------------------------------------------------------------------
+ENCAPSULATION
+ wrapping a data and its behaviour in a single unit is called encapsulation.
+security is a main advantage of encapsulation.
+disadvantage- increase line of code.
+-------------------------------------------------------------------------------------------
+POLYMORPHISM
+polymorphism means many forms 
+there are two types of polymorphism 
+     
+                 polymorphism
 
- 
+  1.static                           2.dynamic                
+we can achive static polymrphism     we can acheive at runtime
+at compiletime
+ it also called as compiletime       it also called as runtime polymorphism
+ polymorphism 
+we can acheive compiletime           we can acheive runtime polymorphism with 
+polymorphism by overloading           overriding method
+method
+
+---------------------------------------------------------------------------------------------------
+overloading                               overriding
+.we can create multiple method              we can override all parent class properties  
+of same name in same class                  in child class
+. method name must be same                  method name must be same
+.argument type must be different            argument type must be same
+
+. return type doesnt have any rule         return time must be same until 1.4v but 1.5v 
+                                            onwords covarient return type is allow
+
+.private, static, final method can be        cannot be overridden
+overloaded
+
+                                            the scope of access modifier cannot decrease,
+. no restriction on access modifier                        we can increase
+
+.compiletime static polymorphism              runtime dynamic polymorphism
+
+.early binding                               late binding
+
+
+
