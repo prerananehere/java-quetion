@@ -1,0 +1,48 @@
+OOPS
+there are four main types of oops
+1.INHERITANCE
+2.ABSTACTION
+3.ENCAPSULATION
+4.POLYMORPHISM
+
+.INHERITANCE
+one object aquaring all properties and behavier from parent object.
+
+there are 5 types of inheritance
+1.SINGLE INHERITANCE
+in single level inheritance having only parent and child
+ class A
+   |
+ class B
+
+2.MULTIPLE INHERITANCE
+in multilevel inheritance having one child class and more than one parent class at different level
+class A(grandparent)
+  |
+class B(Parent)
+  |
+class C(child)
+
+3.MULTIPLE INHERITANCE
+in multiple inheritance having one child and morethan one parent class at a same level
+
+class A      class B
+  \          /
+    class C
+    (child)
+(NOT SUPPORT IN JAVA)
+multiple inheritance not support in java because of diamond problem child class get ambiquatic siatuation/confusion which
+parent class method, consrtuctor call.
+
+4.Herarichal inheritance
+  In herarhicle inheritance having more than one child class and having only one parent class
+
+               
+class A      class B
+  \          /
+    class C
+    (parent)
+5. HYBRIDE INTERFACE 
+ it is a combination of two inheritance
+
+ 
