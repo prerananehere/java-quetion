@@ -1,0 +1,58 @@
+                                    .DATA TYPES 
+There are two types
+1. primititive data type                                       2. non primitive data type
+ 
+1.In primitive data types there are 8 types                         |
+
+1.byte(1 byte)                                                      class
+2.short(2 bytes)                                                    interface
+3.int(4 bytes)                                                      arrays
+4.long(8 bytes)
+5.float(4 bytes)                                                     string
+6.double(8 bytes)->0.0,10.0)
+7.boolean (1 byte true/flse)
+8.char(2 bytes)->(a,b,c,...z)
+
+There are 8 types of wrapper class
+1.Byte                                                    
+2.Short                                               
+3.Integer                                                   
+4.Long
+5.Float                                                
+6.Double
+7.Boolean 
+8.Character
+
+AUTOBOXING
+Conversion of primitive data type to wrapper class is called as autoboxing.
+
+UNBOXING
+conversion of wrapper class to primitive data type is called as unboxing
+
+
+IMPLICTI TYPE CASTING
+conversion of small data type to larger data type is called as implicit type casting(widdning)
+byte-short
+          \
+            int-long-float-double
+        /
+  char
+   
+EXPLICITE TYPE CASTING
+conversion of large data type to small data type is called as explicit type casting (narrowing)
+                               char
+                              /
+    double-float - long- int 
+                              \
+                             short -byte
+in explicite type casting chance of data loosing
+
+
+
+               
+
+
+
+
+
+
