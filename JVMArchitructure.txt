@@ -1,0 +1,36 @@
+                                         JVM(java virchual machine)
+
+there are two types of virchual machine
+1.system/hardware base                 2.application /process base
+ex-xen cloud coumputing,kvm             ex-jvm(run java application)
+                                           pvm( scripting language like perl)
+                                           clr(common language runtime , run net base application)
+
+jvm is as a sftware which is not physically present but work like physical machine.
+ inside jvm class loader is present.
+which is doesnt having physical extension(like wt, hight)
+there are 3 types of class loader.
+TYPES
+1.boostrap class loader (boostrap file .rt)
+2. extension class loader(.ext)
+3.application class loader(app)
+
+class loader sub system
+1.loading(read and load to method area)
+2.linking(verification,preparation,resolution)
+  (verify class name,variables ,its class, interface or enum,/assign null or default value/)
+3.initilization(assign original value)
+
+various memory area of jvm
+there are 5 types of memory area
+1.method area(class,static variables)
+2.heap area(object , instance )
+3.stack area( thread)
+4.pc resistance
+5.native method stack
+
+Execution engine
+1. interpreater-with the help of interpreter jre cn execute the program.
+           it read code line by line.
+2.JIT-just in time compiler
+
